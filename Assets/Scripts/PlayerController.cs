@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class PlayerController : MonoBehaviour
 {
@@ -6,6 +8,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private int score = 0;
     public int health = 5;
+    public Text scoreText;
+
+    
 
     void Start()
     {
@@ -33,7 +38,7 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             score++;
-            Debug.Log("Score: " + score);
+            SetScoreText();
         }
         if (other.gameObject.CompareTag("Trap"))
         {
@@ -44,5 +49,9 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("You win!");
         }
+    }
+    void SetScoreText()
+    {
+        scoreText.text = "Score: " + score.ToString();
     }
 }
