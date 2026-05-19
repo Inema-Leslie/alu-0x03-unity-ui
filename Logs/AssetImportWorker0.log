@@ -608,3 +608,27 @@ Memory consumption went from 98.0 MB to 94.2 MB.
 Total: 233.708700 ms (FindLiveObjects: 27.884700 ms CreateObjectMapping: 1.549600 ms MarkObjects: 195.041100 ms  DeleteObjects: 9.220400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1531.865613 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  importAddress: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '965d07e22036806ec697ca0348a6dd5b') in 8.4484604 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=66b7e74c3d1b30061bdcc3359b15930c DependenciesID=e011caf240ea80f03b0d1af5fb0cd350 StaticDependenciesID=c45c4f5f9a6966af5ef23cf802d63284 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006777 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf
+  importAddress: Guid(f4eec857a4fdf2f43be0e9f3d1a984e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf using Guid(f4eec857a4fdf2f43be0e9f3d1a984e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cbded5c4c3cb37a92e023dca68415cd3') in 0.327035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=38d151f1168295f05a7cff734985aad3 DependenciesID=8a10b5a5d5e2b6e22748bbdebc7c2b2c StaticDependenciesID=23b8b71f9e79757961524056b6b22050 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  importAddress: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c2e6d924b3794a3f4ad052d7b60c78d5') in 0.4309429 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a8051881cc14798d93de1df6123e656 DependenciesID=baa395e294677ae557af4c54cdbcbf17 StaticDependenciesID=2b4d6d94bff6314658a33c4d23a13be2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+

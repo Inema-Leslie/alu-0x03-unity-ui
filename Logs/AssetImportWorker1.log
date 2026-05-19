@@ -518,3 +518,27 @@ Memory consumption went from 96.0 MB to 94.8 MB.
 Total: 253.251400 ms (FindLiveObjects: 12.749400 ms CreateObjectMapping: 2.389200 ms MarkObjects: 200.670000 ms  DeleteObjects: 37.028100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1531.960793 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  importAddress: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0e9e001d2916a3a82b7005223b89cbbd') in 8.5137514 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7e54bdb6ae1ca659448adb5ef30a4e8 DependenciesID=6d7ddec90784436072ccb3d230493c17 StaticDependenciesID=0c2e0c65092d1b2eeff5a0aaf7eefdc7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  importAddress: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7cddcc1d942d187de1c425cd55aac0c5') in 0.4382988 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdc915076b5a3f6c863767441261c652 DependenciesID=ca8871ac8d658c86c4bd494fbabeeca7 StaticDependenciesID=3fdb43396762225fdccf69d997cae012 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012643 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  importAddress: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9cd81156058d53c310c89c52465a2570') in 0.2512374 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3deaf455ee0f4e6e97344def773e9c51 DependenciesID=a8031985e06029acd4576304fc6410d9 StaticDependenciesID=508cf2ac10fcc4f41bcfb4874614093d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
