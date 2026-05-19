@@ -1282,3 +1282,76 @@ Assembly UnityEngine.Purchasing.Security.dll at Library/ScriptAssemblies/UnityEn
 Assembly UnityEngine.Purchasing.WinRT.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.WinRT.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 167.95 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 34.552 seconds
+Domain Reload Profiling: 172466ms
+	BeginReloadAssembly (69910ms)
+		ExecutionOrderSort (16ms)
+		DisableScriptedObjects (2029ms)
+		ReleaseScriptingObjects (644ms)
+		CreateAndSetChildDomain (8282ms)
+	RebuildCommonClasses (1672ms)
+	RebuildNativeTypeToScriptingClass (260ms)
+	initialDomainReloadingComplete (2037ms)
+	LoadAllAssembliesAndSetupDomain (64026ms)
+		LoadAssemblies (26147ms)
+		AnalyzeDomain (49622ms)
+			TypeCache.Refresh (205ms)
+			BuildScriptInfoCaches (48832ms)
+			ResolveRequiredComponents (159ms)
+	FinalizeReload (34562ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (180ms)
+			BeforeProcessingInitializeOnLoad (4353ms)
+			ProcessInitializeOnLoadAttributes (7886ms)
+			ProcessInitializeOnLoadMethodAttributes (9547ms)
+			AfterProcessingInitializeOnLoad (114ms)
+			EditorAssembliesLoaded (10ms)
+		AwakeInstancesAfterBackupRestoration (150ms)
+Refreshing native plugins compatible for Editor in 105.64 ms, found 3 plugins.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3257 unused Assets / (0.8 MB). Loaded Objects now: 3869.
+Memory consumption went from 99.0 MB to 98.1 MB.
+Total: 318.672400 ms (FindLiveObjects: 20.849700 ms CreateObjectMapping: 11.011600 ms MarkObjects: 223.932100 ms  DeleteObjects: 62.858700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
