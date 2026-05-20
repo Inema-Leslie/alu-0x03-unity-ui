@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,6 +12,14 @@ public class PlayerController : MonoBehaviour
     public Text healthText;
     public Text winLoseText;
     public Image winLoseBG;
+
+    void Update()                                                    // ← new
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("menu");
+        }
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -29,7 +37,7 @@ public class PlayerController : MonoBehaviour
             {
                 winLoseText.text = "Game Over!";
                 winLoseText.color = Color.white;
-                winLoseBG.color = new Color(1f, 0f, 0f); 
+                winLoseBG.color = new Color(1f, 0f, 0f);
                 StartCoroutine(LoadScene(3));
             }
         }
@@ -37,7 +45,7 @@ public class PlayerController : MonoBehaviour
         {
             winLoseText.text = "You Win!";
             winLoseText.color = Color.black;
-            winLoseBG.color = new Color(0f, 1f, 0f); 
+            winLoseBG.color = new Color(0f, 1f, 0f);
         }
     }
 
@@ -50,9 +58,10 @@ public class PlayerController : MonoBehaviour
     {
         healthText.text = "Health: " + health.ToString();
     }
+
     IEnumerator LoadScene(float seconds)
     {
-        yield return new WaitForSeconds (seconds);
+        yield return new WaitForSeconds(seconds);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-}   
+}
