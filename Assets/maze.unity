@@ -1967,7 +1967,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &327833434
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2660,6 +2660,8 @@ MonoBehaviour:
   health: 5
   scoreText: {fileID: 1646066191}
   healthText: {fileID: 2041185764}
+  winLoseText: {fileID: 1208371580}
+  winLoseBG: {fileID: 327833435}
 --- !u!1001 &491111387
 PrefabInstance:
   m_ObjectHideFlags: 0
