@@ -7,7 +7,9 @@ public class PlayerController : MonoBehaviour
     public int score;
     public int health;
     public Text scoreText;
-    public Text healthText;  // ← new
+    public Text healthText;
+    public Text winLoseText;
+    public Image winLoseBG;
 
     void OnTriggerEnter(Collider other)
     {
@@ -20,8 +22,19 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Trap"))
         {
             health--;
-            // Debug.Log(health);
-            SetHealthText();  // ← new
+            SetHealthText();
+            if (health <= 0)
+            {
+                winLoseText.text = "Game Over!";
+                winLoseText.color = Color.white;
+                winLoseBG.color = new Color(1f, 0f, 0f); 
+            }
+        }
+        if (other.gameObject.CompareTag("Goal"))
+        {
+            winLoseText.text = "You Win!";
+            winLoseText.color = Color.black;
+            winLoseBG.color = new Color(0f, 1f, 0f); 
         }
     }
 
